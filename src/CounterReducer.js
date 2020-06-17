@@ -1,5 +1,3 @@
-
-
 const counterReducer = (state, action) => {
     switch (action) {
       case 'DECREMENT':
