@@ -2,6 +2,46 @@
   text-align: center;
 }
 
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+button{
+  background-color: #2dce27;
+  font-size: 20px;
+  font-family:Cursive; 
+  transition-duration: 0.4s;
+  align:center;
+  border-style: double;
+  border: 2px solid rgb(19, 104, 19);
+  
+  }
+  button:hover {
+    background-color: #eebb16; 
+  }
+
+
+.child1{
+  border-style: double;
+  border: 2px solid rgb(19, 104, 19);
+  border-radius: 5px;
+  border-width: 3px;
+}
+.child2{
+  border-style: double;
+  border: 2px solid rgba(221, 191, 17, 0.89);
+  border-radius: 5px;
+  border-width: 5px;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
