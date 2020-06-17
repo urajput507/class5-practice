@@ -32,8 +32,8 @@ jobs:
     - name: Creating build
       run: yarn build
     
-    - name: Installing surge  
-      run: npm install -g surge
+    - name: installing surge  
+      run: npm install --global surge
     
     - name: deploying on surge
       run: surge ./build class5-usman.surge.sh --token ${{secrets.SECRET_SURGE}}
